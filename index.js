@@ -48,15 +48,16 @@ console.log('text is a string'.indexOf('String'))
 function findStr(str,find) {
     return str.indexOf(find) !== -1
 }
-
 console.log(findStr('text is a string','string'))
+
 //find all char or string
 function findManyStr(str,find) {
     let result = []
-    result.push(str.indexOf(find))
-    return result
+    for(i=0;i<str.length;i++){
+        str[i] === find ? result.push(i) : null
+    }
+    return 'found '+find+' '+ result.length + ' times at index ' + result
 }
-
 console.log(findManyStr('text is a string','i'))
 
 //.startsWith()
