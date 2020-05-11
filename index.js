@@ -126,3 +126,28 @@ var egVar
 //let needs to be set before it is used
 let egLet
 egLet = 'example'
+
+//Big O Notation
+// O(1)         Constant Time
+//              Algorithim always takes the same time reguardless of input data size
+
+// O(log n)     Logarithmic time complexity
+//              The time it takes to complete is proportional to the logarithm of the input size
+//              eg  data size 10 = 1min to complete
+//                  data size 50 = 17min to complete
+//                  data size 100 = 20min to complete
+
+// O(n)         Linear time complexity
+//              the time it takes to run scales with the ammount of input data
+
+// O(n log n)   Logarithmic-Time Algorithm
+// 
+
+// O(n^2) -     Quadratic time complexity
+//              Time to complete increases exponentialy when input size increases 
+
+// O(2^n)
+// 
+
+// O(n!)
+// 
